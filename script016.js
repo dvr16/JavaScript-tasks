@@ -71,4 +71,5 @@ const prod3 = {
 const getPriceBind = prod3.getPrice.bind(prod3, '*');
 console.log(getPriceBind);
 
+
 setTimeout(getPriceBind, 1000);
